@@ -464,3 +464,16 @@ transform:scale(1.1);
     color: #b266ff;  /* 💜 purple glow */
     margin-right: 8px;
 }
+
+.social-icons a {
+    font-size: 40px;
+    margin: 0 15px;
+    color: #00ffcc;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+    transform: scale(1.4);
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
