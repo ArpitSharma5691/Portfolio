@@ -464,3 +464,14 @@ transform:scale(1.1);
     color: #b266ff;  /* 💜 purple glow */
     margin-right: 8px;
 }
+
+.social-icons a i {
+    font-size: 42px;
+    color: #00ffff !important;   /* 🔥 force visible */
+    display: inline-block;
+}
+
+.social-icons a:hover i {
+    color: #ffffff !important;
+    transform: scale(1.3);
+}
